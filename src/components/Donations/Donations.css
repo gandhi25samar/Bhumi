@@ -1,0 +1,61 @@
+
+.image-style {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.donations-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+.money {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+
+.payment-methods {
+  margin-bottom: 10px;
+}
+
+.payment-methods label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment-methods input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+button[type="submit"] {
+  background-color: #28a745;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
