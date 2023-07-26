@@ -39,8 +39,8 @@ const Popup = () => {
     console.log("Selected Age Group:", selectedAgeGroup);
   };
 
-  const city = selectedCity;
-  const ageGroup = selectedAgeGroup;
+  // const city = selectedCity;
+  // const ageGroup = selectedAgeGroup;
   // history.push("/");
   return (
     <Modal

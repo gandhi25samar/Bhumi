@@ -93,7 +93,7 @@ const Donations = () => {
           <img
             className="img-fluid thumbnail"
             src="https://www.classy.org/wp-content/uploads/2022/03/quotes_mother-teresa_v2.jpg"
-            alt="image"
+            alt="img"
           />
         </div>
         <div className="col-md-6 ">
