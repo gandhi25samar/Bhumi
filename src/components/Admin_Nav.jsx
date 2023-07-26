@@ -1,17 +1,13 @@
-import React, { useImperativeHandle } from "react";
-import {
-  Link,
-  BrowserRouter,
-  useMatch,
-  useResolvedPath,
-} from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 function Admin_Nav() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" to="#">
+        <a className="navbar-brand" href="/#">
           <img
             src="https://bhumi.ngo/wp-content/uploads/2020/12/Bhumi-Torchbearer-Logo-White-1500-PNG.png"
+            alt="img"
             className="image"
           />
         </a>
