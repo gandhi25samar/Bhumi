@@ -6,6 +6,7 @@ function Work() {
         <img
           className="image-card"
           src="https://i.pinimg.com/474x/c9/23/ab/c923ab9a55a517f9a528e0d000e69685.jpg"
+          alt="img"
         />
         <h3 class="card-title">Education</h3>
         <div class="card-content">
@@ -23,6 +24,7 @@ function Work() {
       <div class="card">
         <img
           className="image-card"
+          alt="img"
           src="https://static.vecteezy.com/system/resources/thumbnails/000/660/325/small/Colorful_Charity_Logo_Design.jpg"
         />
         <h3 class="card-title">Civic Volunteering</h3>
@@ -41,6 +43,7 @@ function Work() {
       <div class="card">
         <img
           className="image-card"
+          alt="img"
           src="https://t3.ftcdn.net/jpg/02/55/04/70/360_F_255047080_f8U3OvWKlyHv5GtofVjHRemR3xnyCXyh.jpg"
         />
         <h3 class="card-title">Leadership developement</h3>

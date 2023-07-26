@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar";
 import Carousel from "./Carousel";
@@ -10,11 +10,11 @@ import Login from "./Login";
 import Donations from "./Donations/Donations";
 import Volunteers from "./Volunteers/Volunteers";
 import Internship from "./Internship/Internship";
-import Admin_Portal_Home from "./Admin_Portal_Home";
+import AdminPortalHome from "./AdminPortalHome";
 import Popup from "./popup";
-import User_Region from "./User_Region";
-import Market_Reach from "./Market_Reach";
-import User_Age from "./User_Age";
+import UserRegion from "./UserRegion";
+import MarketReach from "./MarketReach";
+import UserAge from "./UserAge";
 
 // function loadScript(src){
 //   return new Promise(resolve =>{
@@ -112,10 +112,10 @@ function App() {
             </>
           }
         ></Route>
-        <Route path="/Admin_Portal" element={<Admin_Portal_Home />}></Route>
-        <Route path="/User_Region" element={<User_Region />}></Route>
-        <Route path="/Market_Reach" element={<Market_Reach />}></Route>
-        <Route path="/User_Age" element={<User_Age />}></Route>
+        <Route path="/Admin_Portal" element={<AdminPortalHome />}></Route>
+        <Route path="/User_Region" element={<UserRegion />}></Route>
+        <Route path="/Market_Reach" element={<MarketReach />}></Route>
+        <Route path="/User_Age" element={<UserAge />}></Route>
       </Routes>
     </div>
     // <Router>

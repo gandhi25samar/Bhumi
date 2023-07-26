@@ -1,9 +1,9 @@
-import Admin_Nav from "./Admin_Nav";
+import AdminNav from "./AdminNav";
 
 const AdminPortal = () => {
   return (
     <div>
-      <Admin_Nav />
+      <AdminNav />
       <div style={{ margin: "200px auto", width: "50%" }}>
         <h1 style={{ color: "light-Black" }}>
           Hello! Welcome to User Persona Analysis!

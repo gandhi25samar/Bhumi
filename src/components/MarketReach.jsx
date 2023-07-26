@@ -1,10 +1,10 @@
-import Admin_Nav from "./Admin_Nav";
+import AdminNav from "./AdminNav";
 import BarChart2 from "./BarChart2";
 
 const Market_Reach = () => {
   return (
     <div>
-      <Admin_Nav />
+      <AdminNav />
       <br />
       <BarChart2 />
     </div>

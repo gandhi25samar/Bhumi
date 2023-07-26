@@ -1,10 +1,10 @@
-import Admin_Nav from "./Admin_Nav";
+import AdminNav from "./AdminNav";
 import BarChart1 from "./BarChart1";
 
 const User_Region = () => {
   return (
     <div>
-      <Admin_Nav />
+      <AdminNav />
       <br />
       <BarChart1 />
     </div>
